@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  agent-zero:
+    build: .
+    volumes:
+      - ./session_data:/a0/memory/chat_sessions
+      - ./work_dirs:/a0/work_dir
